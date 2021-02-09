@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbtns.a  CMakeFiles/btns.dir/btns.c.o
+/usr/bin/ranlib libbtns.a

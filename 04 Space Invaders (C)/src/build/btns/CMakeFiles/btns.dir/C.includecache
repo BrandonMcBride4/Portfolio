@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xilinx/lab6/btns/btns.c
+unistd.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+btns.h
+/home/xilinx/lab6/btns/btns.h
+
+/home/xilinx/lab6/btns/btns.h
+stdint.h
+-
+

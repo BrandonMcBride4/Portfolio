@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/lab6_main.dir/main.c.o  -o lab6_main control/libcontrol.a tank_bullet/libtank_bullet.a user_audio/libuser_audio.a aliens/libaliens.a alien_bullet/libalien_bullet.a saucer/libsaucer.a tank/libtank.a bunkers/libbunkers.a image_render/libimage_render.a video/libvideo.a btns/libbtns.a fit/libfit.a switches/libswitches.a intc/libintc.a globals/libglobals.a 

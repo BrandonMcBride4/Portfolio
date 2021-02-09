@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xilinx/lab6/fit/fit.c
+unistd.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+fit.h
+/home/xilinx/lab6/fit/fit.h
+
+/home/xilinx/lab6/fit/fit.h
+stdint.h
+-
+

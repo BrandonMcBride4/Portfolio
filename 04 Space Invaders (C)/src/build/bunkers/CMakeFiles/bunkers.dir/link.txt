@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbunkers.a  CMakeFiles/bunkers.dir/bunkers.c.o
+/usr/bin/ranlib libbunkers.a

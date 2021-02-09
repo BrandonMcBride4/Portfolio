@@ -1,0 +1,2 @@
+/usr/bin/ar qc libalien_bullet.a  CMakeFiles/alien_bullet.dir/alien_bullet.c.o
+/usr/bin/ranlib libalien_bullet.a

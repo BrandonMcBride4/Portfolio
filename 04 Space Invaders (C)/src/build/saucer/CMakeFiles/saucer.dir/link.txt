@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsaucer.a  CMakeFiles/saucer.dir/saucer.c.o
+/usr/bin/ranlib libsaucer.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libswitches.a  CMakeFiles/switches.dir/switches.c.o
+/usr/bin/ranlib libswitches.a

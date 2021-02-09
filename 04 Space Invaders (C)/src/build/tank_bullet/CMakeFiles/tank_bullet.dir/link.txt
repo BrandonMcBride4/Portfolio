@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtank_bullet.a  CMakeFiles/tank_bullet.dir/tank_bullet.c.o
+/usr/bin/ranlib libtank_bullet.a

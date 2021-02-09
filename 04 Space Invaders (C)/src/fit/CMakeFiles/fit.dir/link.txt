@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfit.a  CMakeFiles/fit.dir/fit.c.o
+/usr/bin/ranlib libfit.a

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xilinx/lab6/aliens/aliens.h
+stdint.h
+-
+stdbool.h
+-
+
+/home/xilinx/lab6/control/control.h
+stdint.h
+-
+stdbool.h
+-
+
+/home/xilinx/lab6/globals/globals.c
+globals.h
+/home/xilinx/lab6/globals/globals.h
+../image_render/image_render.h
+/home/xilinx/lab6/image_render/image_render.h
+
+/home/xilinx/lab6/globals/globals.h
+stdint.h
+-
+
+/home/xilinx/lab6/image_render/image_render.h
+../control/control.h
+/home/xilinx/lab6/control/control.h
+../aliens/aliens.h
+/home/xilinx/lab6/aliens/aliens.h
+../video/video.h
+/home/xilinx/lab6/video/video.h
+stdint.h
+-
+
+/home/xilinx/lab6/video/video.h
+stdint.h
+-
+

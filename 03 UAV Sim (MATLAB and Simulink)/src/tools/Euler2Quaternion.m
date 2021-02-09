@@ -1,0 +1,16 @@
+function [quat] = Euler2Quaternion(euler)
+% euler(1) = phi
+% euler(2) = theta
+% euler(3) = psi
+
+c_euler = cos(euler./2);
+s_euler = sin(euler./2);
+
+quat = [...
+    c_euler(3)*c_euler(2)*c_euler(1) + s_euler(3)*s_euler(2)*s_euler(1);...
+    c_euler(3)*c_euler(2)*s_euler(1) - s_euler(3)*s_euler(2)*c_euler(1);...
+    c_euler(3)*s_euler(2)*c_euler(1) + s_euler(3)*c_euler(2)*s_euler(1);...
+    s_euler(3)*c_euler(2)*c_euler(1) - c_euler(3)*s_euler(2)*s_euler(1);...
+    ];
+end
+

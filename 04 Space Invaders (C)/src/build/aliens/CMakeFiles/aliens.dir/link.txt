@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaliens.a  CMakeFiles/aliens.dir/aliens.c.o
+/usr/bin/ranlib libaliens.a

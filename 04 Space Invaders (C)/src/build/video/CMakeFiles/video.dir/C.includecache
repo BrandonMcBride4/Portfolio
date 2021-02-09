@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xilinx/lab6/video/video.c
+unistd.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+printf.h
+-
+stdio.h
+-
+video.h
+/home/xilinx/lab6/video/video.h
+
+/home/xilinx/lab6/video/video.h
+stdint.h
+-
+

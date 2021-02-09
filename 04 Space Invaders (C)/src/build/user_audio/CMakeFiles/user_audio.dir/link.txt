@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuser_audio.a  CMakeFiles/user_audio.dir/user_audio.c.o CMakeFiles/user_audio.dir/i2cps.c.o CMakeFiles/user_audio.dir/audio_adau1761.c.o
+/usr/bin/ranlib libuser_audio.a

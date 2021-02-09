@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtank.a  CMakeFiles/tank.dir/tank.c.o
+/usr/bin/ranlib libtank.a

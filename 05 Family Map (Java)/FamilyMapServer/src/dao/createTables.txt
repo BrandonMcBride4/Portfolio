@@ -1,0 +1,53 @@
+--Brandon McBride SQL create table statements
+
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS persons;
+DROP TABLE IF EXISTS events;
+DROP TABLE IF EXISTS authTokens;
+
+CREATE TABLE user
+(
+	id integer not null primary key autoincrement,
+	username varchar(255) not null,
+	password varchar(255) not null,
+	email varchar(255) not null,
+	firstName varchar(255) not null,
+	lastName varchar(255) not null,
+	gender char(1) not null,
+	personID varchar(255) not null
+);
+
+CREATE TABLE person
+(
+	id integer not null primary key autoincrement,
+	personID varchar(255) not null,
+	descendant varchar(255) not null,
+	firstName varchar(255) not null,
+	lastName varchar(255) not null,
+	gender char(1) not null,
+	fatherID varchar(255),
+	motherID varchar(255),
+	spouseID varchar(255)
+);
+
+CREATE TABLE event
+(
+	id integer primary key not null autoincrement,
+	eventID varchar(255) not null,
+	descendant varchar(255) not null,
+	personID varchar(255) not null,
+	latitude varchar(255) not null,
+	longitude varchar(255) not null,
+	country varchar(255) not null,
+	city varchar(255) not null,
+	eventType varchar(255) not null,
+	year integer not null
+);
+
+CREATE TABLE authToken
+(
+	id integer primary key not null autoincrement,
+	authToken varchar(255) not null primary key,
+	username varchar(255) not null,
+	personID varchar(255) not null
+);

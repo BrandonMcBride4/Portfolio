@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimage_render.a  CMakeFiles/image_render.dir/image_render.c.o
+/usr/bin/ranlib libimage_render.a
